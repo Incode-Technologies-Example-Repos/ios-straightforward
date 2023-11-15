@@ -1,0 +1,11 @@
+# platform :ios, '13.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@github.com:Incode-Technologies-Example-Repos/IncdDistributionPodspecs.git'
+
+target 'iOS-Straightforward' do
+  use_frameworks!
+
+  # Pods for iOS-Straightforward
+  pod 'IncdOnboarding', '5.21.0-d'
+end
