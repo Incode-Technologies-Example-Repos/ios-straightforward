@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     }
     
     fileprivate func createSessionConfiguration() -> IncdOnboardingSessionConfiguration {
-        return IncdOnboardingSessionConfiguration(regionCode: "ALL", configurationId: "64cc493c9ffb985de6c56053")
+        return IncdOnboardingSessionConfiguration(regionCode: "ALL", configurationId: "configurationID")
     }
     
     fileprivate func createFlowConfiguration() -> IncdOnboardingFlowConfiguration {

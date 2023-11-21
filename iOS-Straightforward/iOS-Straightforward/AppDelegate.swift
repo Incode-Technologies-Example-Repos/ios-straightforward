@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        IncdOnboardingManager.shared.initIncdOnboarding(url: "https://demo-api.incodesmile.com", apiKey: "f35844c8bcb417be1a64fd6e8d622cc93b0fcfaa")
+        IncdOnboardingManager.shared.initIncdOnboarding(url: "https://demo-api.incodesmile.com", apiKey: "ApiKey")
 
         return true
     }
